@@ -1,0 +1,36 @@
+{
+  "name": "deliabot",
+  "version": "1.0.0",
+  "description": "Twitch node.js chat bot",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FaolinZF/deliabot.git"
+  },
+  "keywords": [
+    "Twitch",
+    "node.js",
+    "chat",
+    "bot"
+  ],
+  "author": "FaolinZF",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FaolinZF/deliabot.git/issues"
+  },
+  "homepage": "https://github.com/FaolinZF/deliabot.git#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "lunarphase-js": "^1.0.10",
+    "tmi.js": "^1.8.5",
+    "w3c-xmlhttprequest": "^3.0.4",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "devDependencies": {
+    "@types/tmi.js": "^1.8.1"
+  }
+}
