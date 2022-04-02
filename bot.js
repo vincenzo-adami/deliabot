@@ -42,7 +42,7 @@ function luna (obj, channel) {
 				let giorno = new Date().getDate();
 				let fase = json.phase[giorno].phaseName;
 				let luce = Math.round(json.phase[giorno].lighting);
-				let mex = (`・Current Moon Presence: `+fase+`・Illumination: `+luce+`%`);
+				let mex = (`・Presenza della Luna: `+fase+`・Illuminazione: `+luce+`%`);
 				client.say(channel, `${mex}`);
 			} catch (error) {
 				console.error(error.message);
@@ -56,7 +56,7 @@ function luna (obj, channel) {
 }
 
 let moonConfig = {
-    lang  		: 'en', // (*) 
+    lang  		: 'it', // (*) 
 	day 		: new Date().getDay()+1,
     month 		: new Date().getMonth() + 1, // 1  - 12
     year  		: new Date().getFullYear(), // year
