@@ -39,9 +39,12 @@ function luna (obj, channel) {
 		res.on("end", () => {
 			try {
 				let json = JSON.parse(body);
+				// get the current day
 				let giorno = new Date().getDate();
+				// get the moon phase of the current day
 				let fase = json.phase[giorno].phaseName;
 				let luce = Math.round(json.phase[giorno].lighting);
+				// compose message for the chat
 				let mex = (`・Presenza della Luna: `+fase+`・Illuminazione: `+luce+`%`);
 				client.say(channel, `${mex}`);
 			} catch (error) {

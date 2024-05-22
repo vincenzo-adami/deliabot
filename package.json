@@ -1,5 +1,5 @@
 {
-  "name": "deliabot",
+  "name": "moonbot",
   "version": "1.0.0",
   "description": "Twitch node.js chat bot",
   "main": "bot.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FaolinZF/deliabot.git"
+    "url": "git+https://github.com/vincenzo-adami/moonbot.git"
   },
   "keywords": [
     "Twitch",
@@ -17,12 +17,12 @@
     "chat",
     "bot"
   ],
-  "author": "FaolinZF",
+  "author": "vincenzo-adami",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/FaolinZF/deliabot.git/issues"
+    "url": "https://github.com/vincenzo-adami/moonbot.git/issues"
   },
-  "homepage": "https://github.com/FaolinZF/deliabot.git#readme",
+  "homepage": "https://github.com/vincenzo-adami/moonbot.git#readme",
   "dependencies": {
     "dotenv": "^10.0.0",
     "lunarphase-js": "^1.0.10",
